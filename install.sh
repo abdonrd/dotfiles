@@ -15,8 +15,10 @@ export DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 . "$DOTFILES_DIR/install/node.sh"
 . "$DOTFILES_DIR/install/python.sh"
 . "$DOTFILES_DIR/install/ruby.sh"
+. "$DOTFILES_DIR/install/oh-my-zsh.sh"
 
 # Bunch of symlinks
 
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/oh-my-zsh/.zshrc" ~
