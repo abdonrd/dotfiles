@@ -7,6 +7,7 @@ These are my dotfiles, targets OS X systems.
 * [Homebrew](http://brew.sh/)
 * [tree](http://mama.indstate.edu/users/ice/tree/)
 * [GNU Wget](https://www.gnu.org/software/wget/)
+* Git
 
 ## Install
 

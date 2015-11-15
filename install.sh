@@ -11,3 +11,9 @@ export DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Package managers & packages
 
 . "$DOTFILES_DIR/install/homebrew.sh"
+. "$DOTFILES_DIR/install/git.sh"
+
+# Bunch of symlinks
+
+ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
+ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
