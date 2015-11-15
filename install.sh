@@ -12,6 +12,9 @@ export DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 . "$DOTFILES_DIR/install/homebrew.sh"
 . "$DOTFILES_DIR/install/git.sh"
+. "$DOTFILES_DIR/install/node.sh"
+. "$DOTFILES_DIR/install/python.sh"
+. "$DOTFILES_DIR/install/ruby.sh"
 
 # Bunch of symlinks
 
