@@ -12,6 +12,7 @@ These are my dotfiles, targets OS X systems.
 * Python + pip (with [virtualenv](https://github.com/pypa/virtualenv))
 * Ruby
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* Atom + apm (with [packages](atom/packages.list))
 
 ## Install
 

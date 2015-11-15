@@ -1,0 +1,52 @@
+"*":
+  "exception-reporting":
+    userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
+  welcome:
+    showOnStartup: false
+  "one-dark-ui": {}
+  core:
+    disabledPackages: [
+      "linter-stylint"
+      "linter-pylint"
+      "polymer-atom"
+    ]
+    ignoredNames: [
+      ".idea"
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+    ]
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    fontSize: 12
+  "linter-jshint": {}
+  linter:
+    subtleLinterErrors: [
+      "pylint"
+    ]
+  "file-icons":
+    coloured: false
+  "linter-csslint": {}
+  "linter-htmlhint": {}
+  "linter-pylint":
+    executable: "/usr/local/bin/pylint"
+  "linter-stylint": {}
+  "linter-jsonlint": {}
+  "tree-ignore": {}
+  "linter-jscs":
+    displayAs: "warning"
+    preset: "google"
+  "tree-view":
+    hideIgnoredNames: true
+  emmet: {}
+  "open-terminal-here": {}
+  "autocomplete-plus": {}
+  "atom-beautify":
+    _analyticsUserId: "f6506cf0-e2e3-4ef1-9dc5-0811b1c3c6c3"
+  "markdown-preview":
+    breakOnSingleNewline: true
+    useGitHubStyle: true
