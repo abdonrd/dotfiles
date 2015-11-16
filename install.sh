@@ -15,8 +15,8 @@ export DOTFILES_DIR="$( cd "$( dirname "${(%):-%N}" )" && pwd )"
 . "$DOTFILES_DIR/install/node.sh"
 . "$DOTFILES_DIR/install/python.sh"
 . "$DOTFILES_DIR/install/ruby.sh"
-. "$DOTFILES_DIR/install/oh-my-zsh.sh"
 . "$DOTFILES_DIR/install/atom.sh"
+. "$DOTFILES_DIR/install/oh-my-zsh.sh" # TODO: Dont break commands
 
 # Bunch of symlinks
 
