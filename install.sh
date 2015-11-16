@@ -22,9 +22,9 @@ export DOTFILES_DIR="$( cd "$( dirname "${(%):-%N}" )" && pwd )"
 
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/atom/config.cson" ~/.atom
+ln -sfv "$DOTFILES_DIR/atom/init.coffee" ~/.atom
+ln -sfv "$DOTFILES_DIR/atom/keymap.cson" ~/.atom
+ln -sfv "$DOTFILES_DIR/atom/snippets.cson" ~/.atom
+ln -sfv "$DOTFILES_DIR/atom/styles.less" ~/.atom
 ln -sfv "$DOTFILES_DIR/oh-my-zsh/.zshrc" ~
-ln -sfv "$DOTFILES_DIR/atom/config.cson" ~
-ln -sfv "$DOTFILES_DIR/atom/init.coffe" ~
-ln -sfv "$DOTFILES_DIR/atom/keymap.cson" ~
-ln -sfv "$DOTFILES_DIR/atom/snippets.cson" ~
-ln -sfv "$DOTFILES_DIR/atom/styles.less" ~
