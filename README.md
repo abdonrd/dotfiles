@@ -7,7 +7,7 @@ These are my dotfiles, targets OS X systems.
 * [Homebrew](http://brew.sh)
 * [tree](http://mama.indstate.edu/users/ice/tree/)
 * [GNU Wget](https://www.gnu.org/software/wget/)
-* Git
+* git
 * Node.js + npm (with [gulp](https://github.com/gulpjs/gulp) and [yeoman](https://github.com/yeoman/yeoman))
 * Python + pip (with [virtualenv](https://github.com/pypa/virtualenv))
 * Ruby
@@ -20,6 +20,7 @@ On a sparkling fresh installation of OS X:
 
     sudo softwareupdate -i -a
     xcode-select --install
+    chsh -s $(which zsh)
 
 Install the dotfiles with Git:
 
