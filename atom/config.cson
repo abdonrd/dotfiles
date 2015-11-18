@@ -8,7 +8,6 @@
     disabledPackages: [
       "linter-stylint"
       "linter-pylint"
-      "polymer-atom"
     ]
     ignoredNames: [
       ".idea"
