@@ -33,3 +33,8 @@ On a sparkling fresh installation of OS X:
 #### Install the dotfiles:
 
     source dotfiles/install.sh
+
+#### Actual TODOs
+
+* [`install/oh-my-zsh.sh#L5`](install/oh-my-zsh.sh#L5) Don´t break command line
+* [`install/atom.sh#L3`](install/atom.sh#L3) Install Atom from command line
