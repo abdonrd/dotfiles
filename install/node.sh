@@ -7,6 +7,7 @@ brew install node
 packages=(
     gulp
     polyserve
+    serve
     yo
 )
 
