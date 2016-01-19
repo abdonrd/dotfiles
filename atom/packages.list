@@ -2,7 +2,6 @@ atom-beautify
 autocomplete-paths
 color-picker
 editorconfig
-emmet
 file-icons
 linter
 linter-csslint
@@ -10,11 +9,7 @@ linter-htmlhint
 linter-jscs
 linter-jshint
 linter-jsonlint
-linter-pylint
-linter-stylint
-open-in-sourcetree
 open-terminal-here
 polymer-atom
 polymer-snippets
-pretty-json
 sort-lines

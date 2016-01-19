@@ -5,11 +5,6 @@
     showOnStartup: false
   "one-dark-ui": {}
   core:
-    disabledPackages: [
-      "linter-stylint"
-      "linter-pylint"
-      "polymer-atom"
-    ]
     ignoredNames: [
       ".idea"
       ".git"
@@ -25,24 +20,16 @@
     fontSize: 12
   "linter-jshint": {}
   linter:
-    subtleLinterErrors: [
-      "pylint"
-    ]
   "file-icons":
     coloured: false
   "linter-csslint": {}
   "linter-htmlhint": {}
-  "linter-pylint":
-    executable: "/usr/local/bin/pylint"
-  "linter-stylint": {}
-  "linter-jsonlint": {}
   "tree-ignore": {}
   "linter-jscs":
     displayAs: "warning"
     preset: "google"
   "tree-view":
     hideIgnoredNames: true
-  emmet: {}
   "open-terminal-here": {}
   "autocomplete-plus": {}
   "atom-beautify":
