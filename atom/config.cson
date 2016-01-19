@@ -1,9 +1,7 @@
 "*":
-  "exception-reporting":
-    userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
-  welcome:
-    showOnStartup: false
-  "one-dark-ui": {}
+  "atom-beautify":
+    _analyticsUserId: "f6506cf0-e2e3-4ef1-9dc5-0811b1c3c6c3"
+  "autocomplete-plus": {}
   core:
     ignoredNames: [
       ".idea"
@@ -15,25 +13,27 @@
       "Thumbs.db"
     ]
   editor:
+    fontSize: 12
     invisibles: {}
     scrollPastEnd: true
-    fontSize: 12
-  "linter-jshint": {}
-  linter:
+  "exception-reporting":
+    userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
   "file-icons":
     coloured: false
+  linter:
   "linter-csslint": {}
   "linter-htmlhint": {}
-  "tree-ignore": {}
   "linter-jscs":
     displayAs: "warning"
     preset: "google"
-  "tree-view":
-    hideIgnoredNames: true
-  "open-terminal-here": {}
-  "autocomplete-plus": {}
-  "atom-beautify":
-    _analyticsUserId: "f6506cf0-e2e3-4ef1-9dc5-0811b1c3c6c3"
+  "linter-jshint":
   "markdown-preview":
     breakOnSingleNewline: true
     useGitHubStyle: true
+  "one-dark-ui": {}
+  "open-terminal-here": {}
+  "tree-ignore": {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
