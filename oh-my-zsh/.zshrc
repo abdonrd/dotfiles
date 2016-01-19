@@ -26,3 +26,6 @@ alias cleanupad="find . -type d -name '.AppleD*' -ls -exec /bin/rm -r {} \;"
 
 ## Canary with web security disable
 alias canary_unsafe="open -a 'Google Chrome Canary' --args --disable-web-security"
+
+## Recursively remove bower_components directory
+alias cleanupbc="find . -type d -name 'bower_components' -ls -exec /bin/rm -Rf {} \;"

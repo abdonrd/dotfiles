@@ -1,14 +1,10 @@
 "*":
-  "exception-reporting":
-    userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
-  welcome:
-    showOnStartup: false
-  "one-dark-ui": {}
+  "atom-beautify":
+    _analyticsUserId: "f6506cf0-e2e3-4ef1-9dc5-0811b1c3c6c3"
+    js_keep_array_indentation: true
+    js_keep_function_indentation: true
+  "autocomplete-plus": {}
   core:
-    disabledPackages: [
-      "linter-stylint"
-      "linter-pylint"
-    ]
     ignoredNames: [
       ".idea"
       ".git"
@@ -19,33 +15,30 @@
       "Thumbs.db"
     ]
   editor:
+    fontSize: 12
     invisibles: {}
     scrollPastEnd: true
-    fontSize: 12
-  "linter-jshint": {}
-  linter:
-    subtleLinterErrors: [
-      "pylint"
-    ]
+  "exception-reporting":
+    userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
   "file-icons":
     coloured: false
+  linter:
+    showErrorPanel: false
   "linter-csslint": {}
   "linter-htmlhint": {}
-  "linter-pylint":
-    executable: "/usr/local/bin/pylint"
-  "linter-stylint": {}
-  "linter-jsonlint": {}
-  "tree-ignore": {}
   "linter-jscs":
     displayAs: "warning"
     preset: "google"
-  "tree-view":
-    hideIgnoredNames: true
-  emmet: {}
-  "open-terminal-here": {}
-  "autocomplete-plus": {}
-  "atom-beautify":
-    _analyticsUserId: "f6506cf0-e2e3-4ef1-9dc5-0811b1c3c6c3"
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-jsonlint": {}
   "markdown-preview":
     breakOnSingleNewline: true
     useGitHubStyle: true
+  "one-dark-ui": {}
+  "open-terminal-here": {}
+  "tree-ignore": {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
