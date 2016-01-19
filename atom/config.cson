@@ -1,6 +1,8 @@
 "*":
   "atom-beautify":
     _analyticsUserId: "f6506cf0-e2e3-4ef1-9dc5-0811b1c3c6c3"
+    js_keep_array_indentation: true
+    js_keep_function_indentation: true
   "autocomplete-plus": {}
   core:
     ignoredNames: [
@@ -21,12 +23,15 @@
   "file-icons":
     coloured: false
   linter:
+    showErrorPanel: false
   "linter-csslint": {}
   "linter-htmlhint": {}
   "linter-jscs":
     displayAs: "warning"
     preset: "google"
   "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-jsonlint": {}
   "markdown-preview":
     breakOnSingleNewline: true
     useGitHubStyle: true
