@@ -18,6 +18,12 @@ source $ZSH/oh-my-zsh.sh
 ## Android SDK
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 
+## The next line updates PATH for the Google Cloud SDK.
+source '/Users/abdonrd/google-cloud-sdk/path.zsh.inc'
+
+## The next line enables shell command completion for gcloud.
+source '/Users/abdonrd/google-cloud-sdk/completion.zsh.inc'
+
 # Aliases
 
 ## Recursively remove Apple meta files
