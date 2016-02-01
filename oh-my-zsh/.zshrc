@@ -24,6 +24,9 @@ source '/Users/abdonrd/google-cloud-sdk/path.zsh.inc'
 ## The next line enables shell command completion for gcloud.
 source '/Users/abdonrd/google-cloud-sdk/completion.zsh.inc'
 
+## added by travis gem
+[ -f /Users/abdonrd/.travis/travis.sh ] && source /Users/abdonrd/.travis/travis.sh
+
 # Aliases
 
 ## Recursively remove Apple meta files
