@@ -22,9 +22,10 @@
     userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
   "file-icons":
     coloured: false
-  linter:
-    showErrorPanel: false
+  linter: {}
   "linter-csslint": {}
+  "linter-eslint":
+    lintHtmlFiles: true
   "linter-htmlhint": {}
   "linter-jscs":
     displayAs: "warning"
