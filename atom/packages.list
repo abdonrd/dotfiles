@@ -5,9 +5,8 @@ editorconfig
 file-icons
 linter
 linter-csslint
+linter-eslint
 linter-htmlhint
-linter-jscs
-linter-jshint
 linter-jsonlint
 open-terminal-here
 polymer-atom
