@@ -1,7 +1,9 @@
 atom-beautify
+atom-css-comb
 autocomplete-paths
 color-picker
 editorconfig
+emmet
 file-icons
 linter
 linter-csslint

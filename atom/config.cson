@@ -57,6 +57,7 @@
     visualforce: {}
     xml: {}
     xtemplate: {}
+  "atom-css-comb": {}
   "autocomplete-plus": {}
   core:
     ignoredNames: [
@@ -72,6 +73,7 @@
     fontSize: 12
     invisibles: {}
     scrollPastEnd: true
+  emmet: {}
   "exception-reporting":
     userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
   "file-icons":
