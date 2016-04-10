@@ -6,10 +6,7 @@ editorconfig
 emmet
 file-icons
 linter
-linter-csslint
 linter-eslint
-linter-htmlhint
-linter-jsonlint
 open-terminal-here
 polymer-atom
 polymer-snippets
