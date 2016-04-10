@@ -37,7 +37,8 @@
     breakOnSingleNewline: true
     useGitHubStyle: true
   "one-dark-ui": {}
-  "open-terminal-here": {}
+  "open-terminal-here":
+    command: "open -a iTerm.app \"$PWD\""
   "tree-ignore": {}
   "tree-view":
     hideIgnoredNames: true
