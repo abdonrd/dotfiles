@@ -1,8 +1,62 @@
 "*":
   "atom-beautify":
-    _analyticsUserId: "f6506cf0-e2e3-4ef1-9dc5-0811b1c3c6c3"
-    js_keep_array_indentation: true
-    js_keep_function_indentation: true
+    apex: {}
+    arduino: {}
+    c: {}
+    cfml: {}
+    coffeescript: {}
+    cpp: {}
+    cs: {}
+    css: {}
+    d: {}
+    ejs: {}
+    erb: {}
+    fortran: {}
+    general:
+      analytics: false
+    gherkin: {}
+    handlebars: {}
+    html:
+      end_with_newline: true
+      extra_liners: [
+        "none"
+      ]
+      indent_inner_html: true
+    jade: {}
+    java: {}
+    js:
+      end_with_newline: true
+      indent_size: 2
+    json:
+      brace_style: "expand"
+      end_with_newline: true
+      indent_size: 2
+    jsx: {}
+    latex: {}
+    less: {}
+    marko: {}
+    mustache: {}
+    objectivec: {}
+    pawn: {}
+    perl: {}
+    php: {}
+    python: {}
+    riot: {}
+    ruby: {}
+    rust: {}
+    sass: {}
+    scss: {}
+    spacebars: {}
+    sql: {}
+    svg: {}
+    swig: {}
+    tss: {}
+    twig: {}
+    typescript: {}
+    vala: {}
+    visualforce: {}
+    xml: {}
+    xtemplate: {}
   "autocomplete-plus": {}
   core:
     ignoredNames: [
