@@ -82,6 +82,7 @@
   linter: {}
   "linter-csslint": {}
   "linter-eslint":
+    disableFSCache: true
     lintHtmlFiles: true
   "linter-htmlhint": {}
   "linter-jscs":
