@@ -22,6 +22,7 @@
         "none"
       ]
       indent_inner_html: true
+      indent_size: 2
     jade: {}
     java: {}
     js:
