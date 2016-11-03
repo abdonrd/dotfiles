@@ -5,7 +5,7 @@ export ZSH=/Users/abdonrd/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Plugins
-plugins=(brew git node npm gulp python pip virtualenv)
+plugins=(git node npm gulp python pip virtualenv)
 
 # User configuration
 
