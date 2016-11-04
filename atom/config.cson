@@ -1,103 +1,39 @@
 "*":
   "atom-beautify":
-    apex: {}
-    arduino: {}
-    c: {}
-    cfml: {}
-    coffeescript: {}
-    cpp: {}
-    cs: {}
-    css: {}
-    d: {}
-    ejs: {}
-    erb: {}
-    fortran: {}
-    general:
-      analytics: false
-    gherkin: {}
-    handlebars: {}
     html:
       end_with_newline: true
-      extra_liners: [
-        "none"
-      ]
-      indent_inner_html: true
       indent_size: 2
-    jade: {}
-    java: {}
     js:
       end_with_newline: true
       indent_size: 2
     json:
-      brace_style: "expand"
       end_with_newline: true
       indent_size: 2
-    jsx: {}
-    latex: {}
-    less: {}
-    marko: {}
-    mustache: {}
-    objectivec: {}
-    pawn: {}
-    perl: {}
-    php: {}
-    python: {}
-    riot: {}
-    ruby: {}
-    rust: {}
-    sass: {}
-    scss: {}
-    spacebars: {}
-    sql: {}
-    svg: {}
-    swig: {}
-    tss: {}
-    twig: {}
-    typescript: {}
-    vala: {}
-    visualforce: {}
-    xml: {}
-    xtemplate: {}
-  "atom-css-comb": {}
-  "autocomplete-plus": {}
+  "atom-css-comb":
+    commonConfigs: "/Users/abdonrd/Work/.csscomb.json"
+  "color-picker":
+    preferredFormat: "HEX"
   core:
-    ignoredNames: [
-      ".idea"
-      ".git"
-      ".hg"
-      ".svn"
-      ".DS_Store"
-      "._*"
-      "Thumbs.db"
-    ]
+    telemetryConsent: "limited"
   editor:
     fontSize: 12
-    invisibles: {}
     scrollPastEnd: true
-  emmet: {}
   "exception-reporting":
     userId: "e4b35371-ff79-f2f2-d644-ec0e7cf636a5"
   "file-icons":
     coloured: false
-  linter: {}
-  "linter-csslint": {}
   "linter-eslint":
-    disableFSCache: true
+    advancedLocalNodeModules: "/usr/local/lib/node_modules"
     lintHtmlFiles: true
-  "linter-htmlhint": {}
-  "linter-jscs":
-    displayAs: "warning"
-    preset: "google"
-  "linter-jshint":
-    lintInlineJavaScript: true
-  "linter-jsonlint": {}
   "markdown-preview":
-    breakOnSingleNewline: true
     useGitHubStyle: true
-  "one-dark-ui": {}
   "open-terminal-here":
     command: "open -a iTerm.app \"$PWD\""
-  "tree-ignore": {}
+  "platformio-ide-terminal":
+    style:
+      animationSpeed: 0
+      defaultPanelHeight: "200px"
+      fontSize: "12"
   "tree-view":
     hideIgnoredNames: true
   welcome:

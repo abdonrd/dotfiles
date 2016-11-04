@@ -8,6 +8,6 @@ file-icons
 linter
 linter-eslint
 open-terminal-here
-polymer-atom
-polymer-snippets
+platformio-ide-terminal
+polymer-ide
 sort-lines
