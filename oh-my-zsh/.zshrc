@@ -9,7 +9,8 @@ plugins=(git node npm nvm gulp python pip virtualenv)
 
 source "$ZSH/oh-my-zsh.sh"
 
-# Path
+
+# PATH
 
 ## Android SDK
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
@@ -22,6 +23,7 @@ source "$HOME/google-cloud-sdk/completion.zsh.inc"
 
 ## Added by travis gem
 [ -f /Users/abdonrd/.travis/travis.sh ] && source "$HOME/.travis/travis.sh"
+
 
 # Aliases
 
