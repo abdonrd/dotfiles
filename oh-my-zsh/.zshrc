@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/abdonrd/.oh-my-zsh
+export ZSH="$HOME/.oh-my-zsh"
 
 # Theme
 ZSH_THEME="robbyrussell"
@@ -19,13 +19,13 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 
 ## The next line updates PATH for the Google Cloud SDK.
-source '/Users/abdonrd/google-cloud-sdk/path.zsh.inc'
+source "$HOME/google-cloud-sdk/path.zsh.inc"
 
 ## The next line enables shell command completion for gcloud.
-source '/Users/abdonrd/google-cloud-sdk/completion.zsh.inc'
+source "$HOME/google-cloud-sdk/completion.zsh.inc"
 
-## added by travis gem
-[ -f /Users/abdonrd/.travis/travis.sh ] && source /Users/abdonrd/.travis/travis.sh
+## Added by travis gem
+[ -f /Users/abdonrd/.travis/travis.sh ] && source "$HOME/.travis/travis.sh"
 
 # Aliases
 
