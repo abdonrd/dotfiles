@@ -1,22 +1,18 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Theme
+# Set name of the theme to load.
 ZSH_THEME="robbyrussell"
 
 # Plugins
 plugins=(git node npm gulp python pip virtualenv)
 
-# User configuration
-
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
 # Path
 
 ## Android SDK
-export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 
 ## The next line updates PATH for the Google Cloud SDK.
 source "$HOME/google-cloud-sdk/path.zsh.inc"
