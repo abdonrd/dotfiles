@@ -5,7 +5,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
 # Plugins
-plugins=(git node npm gulp python pip virtualenv)
+plugins=(git node npm nvm gulp python pip virtualenv)
 
 source "$ZSH/oh-my-zsh.sh"
 
