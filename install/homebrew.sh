@@ -5,6 +5,7 @@
 # Install packages
 
 packages=(
+  git
   yarn
 )
 

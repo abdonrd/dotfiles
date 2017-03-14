@@ -11,7 +11,6 @@ export DOTFILES_DIR="$( cd "$( dirname "${(%):-%N}" )" && pwd )"
 # Package managers & packages
 
 . "$DOTFILES_DIR/install/homebrew.sh"
-. "$DOTFILES_DIR/install/git.sh"
 . "$DOTFILES_DIR/install/oh-my-zsh.sh"
 
 # Bunch of symlinks
