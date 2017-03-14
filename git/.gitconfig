@@ -1,15 +1,13 @@
+[core]
+	excludesfile = /Users/abdonrd/.gitignore_global
 [user]
 	name = Abdón Rodríguez Davila
 	email = a@abdonrd.com
-
-[core]
-	excludesfile = ~/.gitignore_global
-	editor = atom --wait
-
+[commit]
+	template = /Users/abdonrd/.stCommitMsg
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
-
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
