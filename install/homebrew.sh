@@ -6,6 +6,7 @@
 
 packages=(
   git
+  nvm
   yarn
 )
 
