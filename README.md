@@ -12,7 +12,6 @@ These are my dotfiles, targets OS X systems.
 * Python + pip (with [virtualenv](https://github.com/pypa/virtualenv))
 * Ruby
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-* Atom + apm (with a [list of packages](atom/packages.list))
 
 ## Install
 
@@ -37,4 +36,3 @@ On a sparkling fresh installation of OS X:
 #### Actual TODOs
 
 * [`install/oh-my-zsh.sh#L5`](install/oh-my-zsh.sh#L5) Don´t break command line
-* [`install/atom.sh#L3`](install/atom.sh#L3) Install Atom from command line
