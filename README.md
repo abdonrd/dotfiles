@@ -4,9 +4,11 @@ These are my dotfiles, targets OS X systems.
 
 ## Package overview
 
-* [Homebrew](http://brew.sh)
-* git
+* [Homebrew](https://github.com/Homebrew/brew)
+* [nvm](https://github.com/creationix/nvm)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [yarn](https://github.com/yarnpkg/yarn)
+* git
 
 ## Install
 
@@ -27,7 +29,3 @@ On a sparkling fresh installation of OS X:
 #### Install the dotfiles:
 
     source dotfiles/install.sh
-
-#### Actual TODOs
-
-* [`install/oh-my-zsh.sh#L5`](install/oh-my-zsh.sh#L5) Don´t break command line
