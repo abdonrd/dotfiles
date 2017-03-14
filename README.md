@@ -5,8 +5,6 @@ These are my dotfiles, targets OS X systems.
 ## Package overview
 
 * [Homebrew](http://brew.sh)
-* [tree](http://mama.indstate.edu/users/ice/tree/)
-* [GNU Wget](https://www.gnu.org/software/wget/)
 * git
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
