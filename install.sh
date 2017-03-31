@@ -10,11 +10,11 @@ export DOTFILES_DIR="$( cd "$( dirname "${(%):-%N}" )" && pwd )"
 
 # Package managers & packages
 
-. "$DOTFILES_DIR/install/homebrew.sh"
-. "$DOTFILES_DIR/install/oh-my-zsh.sh"
+. "$DOTFILES_DIR/homebrew/install.sh"
+. "$DOTFILES_DIR/oh-my-zsh/install.sh"
 
 # Bunch of symlinks
 
-ln -sfv "$DOTFILES_DIR/dotfiles/.gitconfig" ~
-ln -sfv "$DOTFILES_DIR/dotfiles/.gitignore_global" ~
-ln -sfv "$DOTFILES_DIR/dotfiles/.zshrc" ~
+ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
+ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/oh-my-zsh/.zshrc" ~
