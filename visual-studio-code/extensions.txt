@@ -1,0 +1,7 @@
+akamud.vscode-theme-onedark
+christian-kohler.path-intellisense
+dbaeumer.vscode-eslint
+file-icons.file-icons
+msjsdiag.debugger-for-chrome
+polymer.polymer-ide
+shinnn.stylelint

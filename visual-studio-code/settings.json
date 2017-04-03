@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "eslint.validate": [
+    "javascript",
+    "html"
+  ],
+  "workbench.iconTheme": "file-icons-colourless",
+  "workbench.colorTheme": "Atom One Dark",
+  "window.zoomLevel": 0,
+  "eslint.nodePath": "/Users/abdonrd/.config/yarn/global/node_modules"
+}
