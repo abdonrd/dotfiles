@@ -8,6 +8,7 @@ These are my dotfiles, targets macOS systems.
 * [Homebrew](https://github.com/Homebrew/brew)
 * [nvm](https://github.com/creationix/nvm)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [Visual Studio Code](https://github.com/Microsoft/vscode)
 * [yarn](https://github.com/yarnpkg/yarn)
 
 ## Install

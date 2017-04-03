@@ -12,9 +12,11 @@ export DOTFILES_DIR="$( cd "$( dirname "${(%):-%N}" )" && pwd )"
 
 . "$DOTFILES_DIR/homebrew/install.sh"
 . "$DOTFILES_DIR/oh-my-zsh/install.sh"
+. "$DOTFILES_DIR/visual-studio-code/install.sh"
 
 # Bunch of symlinks
 
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 ln -sfv "$DOTFILES_DIR/oh-my-zsh/.zshrc" ~
+ln -sfv "$DOTFILES_DIR/visual-studio-code/settings.json" ~/Library/Application Support/Code/User/
