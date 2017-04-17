@@ -9,7 +9,5 @@
     "html"
   ],
   "workbench.iconTheme": "file-icons-colourless",
-  "workbench.colorTheme": "Atom One Dark",
-  "window.zoomLevel": 0,
-  "eslint.nodePath": "/Users/abdonrd/.config/yarn/global/node_modules"
+  "workbench.colorTheme": "Atom One Dark"
 }
