@@ -19,4 +19,4 @@ export DOTFILES_DIR="$( cd "$( dirname "${(%):-%N}" )" && pwd )"
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 ln -sfv "$DOTFILES_DIR/oh-my-zsh/.zshrc" ~
-ln -sfv "$DOTFILES_DIR/visual-studio-code/settings.json" ~/Library/Application Support/Code/User/
+ln -sfv "$DOTFILES_DIR/visual-studio-code/settings.json" ~/Library/Application\ Support/Code/User
