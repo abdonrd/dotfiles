@@ -2,12 +2,13 @@
 {
   "editor.rulers": [80],
   "editor.tabSize": 2,
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "file-icons-colourless",
   "files.trimTrailingWhitespace": true,
+  "debug.allowBreakpointsEverywhere": true,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "eslint.validate": [
     "javascript",
     "html"
-  ],
-  "workbench.iconTheme": "file-icons-colourless",
-  "workbench.colorTheme": "Atom One Dark"
+  ]
 }
