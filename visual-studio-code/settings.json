@@ -9,7 +9,7 @@
   "workbench.startupEditor": "newUntitledFile",
   "files.trimTrailingWhitespace": true,
   "debug.allowBreakpointsEverywhere": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shellArgs.osx": [],
   "terminal.integrated.fontSize": 11,
   "stylelint.additionalDocumentSelectors": [
     "html"
