@@ -16,8 +16,8 @@ export NVM_DIR="$HOME/.nvm"
 # added by travis gem
 [ -f /Users/abdonrd/.travis/travis.sh ] && source /Users/abdonrd/.travis/travis.sh
 
-### Added by the Bluemix CLI
-source /usr/local/Bluemix/bx/zsh_autocomplete
+### Added by the IBM Cloud CLI
+source /usr/local/ibmcloud/bx/zsh_autocomplete
 
 ### Added by the Google CLoud SDK
 source /Applications/google-cloud-sdk/completion.zsh.inc
