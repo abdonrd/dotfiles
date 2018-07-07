@@ -1,7 +1,8 @@
-akamud.vscode-theme-onedark
-christian-kohler.path-intellisense
+bierner.lit-html
+bierner.markdown-preview-github-styles
 dbaeumer.vscode-eslint
 file-icons.file-icons
+HookyQR.beautify
 msjsdiag.debugger-for-chrome
 polymer.polymer-ide
 shinnn.stylelint
