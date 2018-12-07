@@ -17,7 +17,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -f /Users/abdonrd/.travis/travis.sh ] && source /Users/abdonrd/.travis/travis.sh
 
 ### Added by the IBM Cloud CLI
-source /usr/local/ibmcloud/bx/zsh_autocomplete
+source /usr/local/ibmcloud/autocomplete/zsh_autocomplete
 
 ### Added by the Google CLoud SDK
 source /Applications/google-cloud-sdk/completion.zsh.inc
