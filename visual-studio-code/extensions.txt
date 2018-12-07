@@ -1,8 +1,13 @@
+bierner.github-markdown-preview
 bierner.lit-html
+bierner.markdown-checkbox
+bierner.markdown-emoji
 bierner.markdown-preview-github-styles
+bierner.markdown-yaml-preamble
 dbaeumer.vscode-eslint
+esbenp.prettier-vscode
 file-icons.file-icons
-HookyQR.beautify
+GitHub.vscode-pull-request-github
+ms-vsliveshare.vsliveshare
+ms-vsliveshare.vsliveshare-audio
 msjsdiag.debugger-for-chrome
-polymer.polymer-ide
-shinnn.stylelint
