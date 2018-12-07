@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.rulers": [80],
+  "editor.rulers": [80, 100],
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "diffEditor.renderSideBySide": false,
@@ -21,6 +21,6 @@
       "host": "https://github.com",
       "username": "oauth",
       "token": "system"
-  }
+    }
   ]
 }
