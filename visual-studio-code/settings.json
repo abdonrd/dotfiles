@@ -9,11 +9,18 @@
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.shellArgs.osx": [],
   "terminal.integrated.fontSize": 11,
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
   "eslint.validate": [
     "javascript",
     "html"
   ],
-  "emmet.includeLanguages": {
-    "javascript": "html"
+  "githubPullRequests.hosts": [
+    {
+      "host": "https://github.com",
+      "username": "oauth",
+      "token": "system"
   }
+  ]
 }
