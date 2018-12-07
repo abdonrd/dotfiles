@@ -9,9 +9,6 @@
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.shellArgs.osx": [],
   "terminal.integrated.fontSize": 11,
-  "stylelint.additionalDocumentSelectors": [
-    "html"
-  ],
   "eslint.validate": [
     "javascript",
     "html"
