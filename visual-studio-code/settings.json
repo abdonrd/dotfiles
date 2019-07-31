@@ -4,23 +4,14 @@
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "workbench.iconTheme": "file-icons-colourless",
   "workbench.startupEditor": "newUntitledFile",
   "files.trimTrailingWhitespace": true,
-  "terminal.integrated.shellArgs.osx": [],
   "terminal.integrated.fontSize": 11,
-  "emmet.includeLanguages": {
-    "javascript": "html"
-  },
   "eslint.validate": [
     "javascript",
-    "html"
+    "typescript"
   ],
-  "githubPullRequests.hosts": [
-    {
-      "host": "https://github.com",
-      "username": "oauth",
-      "token": "system"
-    }
-  ]
+  "npm.enableScriptExplorer": true
 }
